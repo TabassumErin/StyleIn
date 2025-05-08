@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdf7e3;
+  color: #0d1b2a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #fdf7e3;
+}
+
+.logo {
+  color: #b59248;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #0d1b2a;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #0d1b2a;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.review-card {
+  max-width: 500px;
+  background-color: #fdf7e3;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  width: 100px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.product-details h3 {
+  margin: 0.2rem 0;
+}
+
+.stars {
+  font-size: 1.5rem;
+  color: #0d1b2a;
+}
+
+.price {
+  font-size: 1rem;
+  margin: 0;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #f1ead2;
+  font-family: 'Arial', sans-serif;
+}
+
+.note {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+button {
+  display: block;
+  margin: 1.5rem auto 0;
+  background-color: #d8bb78;
+  color: #0d1b2a;
+  font-size: 1rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf7e3;
+    color: #0d1b2a;
+    text-align: center;
+  }
+  
+  header {
+    padding: 1.5rem;
+  }
+  
+  .logo {
+    color: #b59248;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: #0d1b2a;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  .image-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .model-image {
+    width: 280px;
+    border-radius: 24px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .upload-btn, .select-btn {
+    background-color: #fdf7e3;
+    border: 2px solid #ccc;
+    padding: 0.75rem 1.2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .upload-btn .icon {
+    width: 20px;
+  }
+  
+  .select-btn .arrow {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  .try-btn {
+    background-color: #0d1b2a;
+    color: #fff;
+    padding: 0.9rem 2.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  
